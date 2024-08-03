@@ -6,11 +6,12 @@
     <title>QR Code Scanner</title>
 </head>
 <body>
-    <h1>QR Code Scanner</h1>
-    <video id="video" width="300" height="300"></video>
-    <canvas id="canvas" style="display:none;"></canvas>
-    <p id="result">Scanning...</p>
-
+    <div style="display: grid; place-items: center;">
+        <h1>QR Code Scanner</h1>
+        <video id="video" width="300" height="300"></video>
+        <canvas id="canvas" style="display:none;"></canvas>
+        <p id="result">Scanning...</p>
+    </div>
     <script src="https://unpkg.com/jsqr"></script>
     <script src="script.js"></script>
 </body>
